@@ -1,4 +1,7 @@
 .idea/
 
+# Specit framework
+.specit/
+
 # Env file
 .env
