@@ -15,9 +15,9 @@ export default defineConfig({
               author: 'radu',
               description: 'Antolin User Script',
               match: ['https://antolin.westermann.de/*'],
-              resource: {
-                'pico-css': 'https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css',
-              },
+              // resource: {
+              //   'pico-css': 'https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css',
+              // },
               grant: ['GM_addStyle', 'GM_getResourceText'],
             },
             build: {

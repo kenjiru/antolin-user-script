@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@picocss/pico": "^2.1.1",
     "preact": "^10.22.0"
   },
   "devDependencies": {
