@@ -1,7 +1,12 @@
 .idea/
 
+# Node modules
+node_modules/
+dist/
+
 # Specit framework
-.specit/
+specit
+features/
 
 # Env file
 .env
