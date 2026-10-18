@@ -1,0 +1,93 @@
+.antolin-book-log-container {
+  margin-bottom: 16px;
+}
+
+.antolin-book-log-details {
+  margin: 0;
+}
+
+.antolin-book-log-summary {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 0;
+}
+
+.antolin-book-log-content {
+  margin-top: 8px;
+}
+
+.antolin-book-log-selector-wrapper {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.antolin-book-log-select {
+  padding: 4px 8px;
+  font-size: 12px;
+  height: auto;
+  margin: 0;
+  flex: 1;
+}
+
+.antolin-book-log-table-wrapper {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.antolin-book-log-empty-msg {
+  font-size: 12px;
+  text-align: center;
+  margin: 12px 0;
+  color: var(--pico-muted-color);
+}
+
+.antolin-book-log-table {
+  font-size: 11px;
+  margin: 0;
+  width: 100%;
+}
+
+.antolin-book-log-thead {
+  position: sticky;
+  top: 0;
+  background: var(--pico-background-color);
+  z-index: 1;
+}
+
+.antolin-book-log-th {
+  padding: 4px;
+}
+
+.antolin-book-log-th-pts {
+  padding: 4px;
+  text-align: right;
+}
+
+.antolin-book-log-td-date {
+  padding: 4px;
+  white-space: nowrap;
+}
+
+.antolin-book-log-td-title {
+  padding: 4px;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.antolin-book-log-author {
+  font-size: 9px;
+  color: var(--pico-muted-color);
+}
+
+.antolin-book-log-td-points {
+  padding: 4px;
+  text-align: right;
+  font-weight: bold;
+  color: var(--pico-primary-color);
+}

@@ -1,0 +1,14 @@
+.antolin-floating-badge-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+}
+
+.antolin-floating-badge-button {
+  padding: 8px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 0;
+}

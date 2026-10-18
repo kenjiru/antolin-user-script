@@ -1,0 +1,43 @@
+.antolin-app-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 99999;
+  max-height: 90vh;
+  overflow-y: auto;
+  transition: width 0.2s ease-in-out;
+}
+
+.antolin-app-article {
+  margin: 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  background-color: var(--pico-background-color);
+}
+
+.antolin-minimized-text {
+  text-align: center;
+  font-size: 13px;
+}
+
+.antolin-minimized-text p {
+  margin: 0;
+}
+
+.antolin-minimized-text-empty {
+  margin: 0;
+  color: var(--pico-muted-color);
+}
+
+.antolin-no-stats-container {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.antolin-no-stats-msg {
+  margin: 0;
+  font-size: 14px;
+  color: var(--pico-muted-color);
+}
